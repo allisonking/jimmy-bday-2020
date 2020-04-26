@@ -8,18 +8,12 @@
     <!-- D3 -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="drawing.js"></script>
-
-    <defs>
-        <pattern id="img" patternUnits="userSpaceOnUse" width="1200" height="600">
-          <image xlink:href="drawing.png" x="0" y="0" width="1200" height="600" />
-        </pattern>
-      </defs>
   </head>
   <body>
-      <div>Hello world!</div>
-      <div id="drawing"></div>
+      <div id="drawing" style="position: absolute;"></div>
+      <image src="assets/drawing.png" width="1500", height="1000"></image>
   </body>
-  <img href="/drawing.png" width="1200" height="600"> 
+  
 
   <script>Drawing({container: '#drawing'});</script>
 </html>
