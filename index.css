@@ -1,0 +1,6 @@
+.tooltip {
+    background-color: greenyellow;
+    border-radius: 10px;
+    max-width: 300px;
+    padding: 20px;
+}

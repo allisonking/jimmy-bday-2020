@@ -2,7 +2,7 @@ function Drawing(options) {
   const height = 1000;
   const width = 1500;
   const margin = 20;
-  const debug = true;
+  const debug = false;
   const svg = d3
     .select(options.container)
     .append("svg")
@@ -11,6 +11,14 @@ function Drawing(options) {
   // .on("mousemove", () => {
   //   console.log(d3.event.pageX, d3.event.pageY);
   // });
+
+  const tooltip = d3
+    .select("body")
+    .append("div")
+    .attr("class", "tooltip")
+    .style("position", "absolute")
+    .style("z-index", "2")
+    .style("visibility", "hidden");
 
   d3.json("assets/data.json").then((data) => {
     console.log(data);
@@ -27,14 +35,16 @@ function Drawing(options) {
       .style("fill", "white")
       .style("fill-opacity", "0")
       .style("stroke", () => (debug ? "red" : "none"))
-      .on("mouseover", (d) => {
-        console.log(d.name);
-      });
-
-    // svg
-    //   .append("rect")
-    //   .attr("width", width)
-    //   .attr("height", height)
-    //   .style("fill", "red");
+      .on("mouseover", (d) =>
+        tooltip
+          .style("visibility", "visible")
+          .html(`<p>${d.message}</p> <p>— ${d.name}</p>`)
+      )
+      .on("mousemove", () => {
+        tooltip
+          .style("top", d3.event.pageY - 10 + "px")
+          .style("left", d3.event.pageX + 10 + "px");
+      })
+      .on("mouseout", () => tooltip.style("visiblity", "hidden"));
   });
 }

@@ -25,7 +25,7 @@
     },
     {
         "name": "Heidy",
-        "message": "Happy Birthday Jimmy! For some reason Allison mentioned you wanting a Boster costume, so... here you go.",
+        "message": "Happy Birthday Jimmy! For some reason Allison mentioned you wanting a Bowser costume, so... here you go.",
         "start": [209, 445],
         "end": [452, 710]
     },
@@ -44,7 +44,7 @@
     },
     {
         "name": "Rathanak",
-        "message": "Hi Jimmy!! I hope you enjoy your very first basketball book. It’s an actual book. I’m not making it up. https://www.amazon.com/My-First-Basketball-Book-Sports/dp/1454914874 May your wingspan be long, your hops be high and your reading speed be fast. Happy 29th birthday!",
+        "message": "Hi Jimmy!! I hope you enjoy your very first basketball book. It’s an actual book. I’m not making it up. <br><br> https://www.amazon.com/My-First-Basketball-Book-Sports/dp/1454914874 <br><br> May your wingspan be long, your hops be high and your reading speed be fast. Happy 29th birthday!",
         "start": [1152, 347],
         "end": [1315, 695]
     },
