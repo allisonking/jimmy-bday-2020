@@ -53,5 +53,43 @@
         "message": "here’s the gift on everyone’s wishlist this year! you may want to wear it when you’re around your cat, too. HBD jimmy!",
         "start": [767, 294],
         "end": [892, 546]
+    },
+    {
+        "name": "Alan",
+        "message": "To many more mother/daughter combos in the years to come! (TODO: image)",
+        "start": [0, 0],
+        "end": [0, 0]
+    },
+    {
+        "name": "Jeffrey",
+        "message": "Hi Jimmy! So sorry that we can't celebrate your birthday in person. Sticking to social distancing norms, I'm sharing my gift through Google hangouts. I noticed that most of the art at the new place is Allison's and I didn't want you to feel left out. That's why I'm giving you a piece of fresh artwork this birthday, drawn by yours truly. It's titled: <br><br> <i>Jimmy with Oatmeal</i> <br>One Jimmy and One Huge Box of Oatmeal!<br><br> Hope it's the kind you like 😅!",
+        "sign": "— Jeffrey 👍",
+        "start": [0, 0],
+        "end": [0, 0]
+    },
+    {
+        "name": "Kate",
+        "message": "Happy Birthday Jimmy! Best wishes for the upcoming year with lots of food, books, comedy, rocks, cat time etc. Hope to celebrate with you soon in person!  Stay safe and well-stocked with essentials.",
+        "start": [0,0],
+        "end": [0,0]
+    },
+    {
+        "name": "Christine",
+        "message": "Happy birthday, Jimmy! Ophelia can’t wait to meet you and wish you the best in person! Hope you don’t have to spend part of this next year squatting behind a car in record heat in Chicago or visit Texas during 106 degree weather. (TODO: images)",
+        "start": [0,0],
+        "end": [0,0]
+    },
+    {
+        "name": "Yang",
+        "message": "For Jimmy's b-day, I am bringing him a big non-fiction book. I hope he reads more big books.",
+        "start": [0,0],
+        "end": [0,0]
+    },
+    {
+        "name": "Steven",
+        "message": "Happy Birthday Jimmy!! For your birthday, I want to gift you your favorite pasta~ 😉 #healthy I wish I was back in Cambridge and could visit Allison and you on your special day! Will be back soon this summer and can’t wait to have more hotpot and food adventures with you. Stay flamin!",
+        "start": [0,0],
+        "end": [0,0]
     }
+
 ]

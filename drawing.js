@@ -2,7 +2,7 @@ function Drawing(options) {
   const height = 1000;
   const width = 1500;
   const margin = 20;
-  const debug = false;
+  const debug = true;
   const svg = d3
     .select(options.container)
     .append("svg")
