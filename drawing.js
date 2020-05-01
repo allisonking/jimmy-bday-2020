@@ -2,7 +2,7 @@ function Drawing(options) {
   const height = 1000;
   const width = 1500;
   const margin = 20;
-  const debug = true;
+  const debug = false;
   const svg = d3
     .select(options.container)
     .append("svg")
@@ -36,15 +36,15 @@ function Drawing(options) {
       .on("mouseover", (d) =>
         tooltip
           .style("visibility", "visible")
-          .html(`<p>${d.message}</p> <p>— ${d.name}</p>`)
+          .html(`<p>${d.message}</p><p>${d.sign ? d.sign : `— ${d.name}`}</p>`)
       )
       .on("mousemove", () => {
         tooltip
           .style("top", d3.event.pageY - 10 + "px")
           .style("left", d3.event.pageX + 10 + "px");
-      })
-      .on("mouseout", () => {
-        tooltip.style("visibility", "hidden");
       });
+    // .on("mouseout", () => {
+    //   tooltip.style("visibility", "hidden");
+    // });
   });
 }
