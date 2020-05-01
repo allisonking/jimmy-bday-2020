@@ -43,8 +43,8 @@ function Drawing(options) {
           .style("top", d3.event.pageY - 10 + "px")
           .style("left", d3.event.pageX + 10 + "px");
       });
-    // .on("mouseout", () => {
-    //   tooltip.style("visibility", "hidden");
-    // });
+    .on("mouseout", () => {
+      tooltip.style("visibility", "hidden");
+    });
   });
 }
