@@ -12,6 +12,12 @@
         "end": [1107, 947]
     },
     {
+        "name": "Pravin",
+        "message": "Happy birthday Jimmy! I hope your motorcycle experience has taught you how to drive this Lagann I got you! It is time for you to pierce the heavens.",
+        "start": [397, 82],
+        "end": [708, 256]
+    },
+    {
         "name": "Lin",
         "message": "Go Warriors!",
         "start": [376, 266],
@@ -24,19 +30,29 @@
         "end": [1041, 402]
     },
     {
+        "name": "Karl",
+        "message": "happy birthday jimmy! i hope this picture of me brings you at least a fraction of joy as i would in person. even though youre stuck at home right now, here is a drawing of some chicagos because who has enough money really to buy a real pair these days. well enjoy your birthday year and i hope it brings you lots of great memories! see you soon in one way or another. lets go play some bball next time.",
+        "start": [946, 106],
+        "end": [1133, 240]
+    },
+    {
+        "name": "Ben",
+        "message": "Happy birthday Jimmy! Got you a fresh pair of Jordans. That way you can be ballin while you're ballin.",
+        "start": [456, 379],
+        "end": [604, 532]
+    },
+    {
         "name": "Heidy",
         "message": "Happy Birthday Jimmy! For some reason Allison mentioned you wanting a Bowser costume, so... here you go.",
         "start": [209, 445],
-        "end": [452, 710]
+        "end": [505, 710]
     },
     {
         "name": "Caroline",
         "message": "happy birthday Jimmy! Hope you’re enjoying Jay Chou’s songs virtually even if you can’t go to his concerts in person right now!",
         "start": [478, 568],
         "end": [625, 845]
-
     },
-
     {
         "name": "Paul",
         "message": "here’s the gift on everyone’s wishlist this year! you may want to wear it when you’re around your cat, too. HBD jimmy!",
